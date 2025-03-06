@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+input {
+  @apply border-neutral-300 border border-solid p-3 w-[350px] rounded-[5px] outline-none focus:border-blue-500;
+}
+textarea {
+  @apply border-neutral-300 border border-solid p-3 w-[350px] rounded-[5px] outline-none focus:border-blue-500;
+}
+select {
+  @apply border-neutral-300 border border-solid p-2 w-[350px] rounded-[5px] outline-none focus:border-blue-500;
+}
+label {
+  @apply block text-lg mb-0.5;
+}
