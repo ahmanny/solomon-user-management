@@ -79,5 +79,14 @@ Ensure PostgreSQL is running.
 Verify your .env database credentials are correct.
 Check if the database user_management_pgdb exists.
 
+🏗️ Deployment
+Frontend Deployment (Vercel)
+Install Vercel CLI: npm install -g vercel
+Deploy: vercel
+Backend Deployment (Railway)
+Install Railway CLI:  npm install -g @railway/cli
+Deploy: railway up
+
+
    Author
 Ahman Solomon
